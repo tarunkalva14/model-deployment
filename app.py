@@ -23,4 +23,4 @@ def home():
     return render_template("index.html", email=email, predictions=predictions)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080, debug=True)
+    app.run()
