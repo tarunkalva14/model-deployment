@@ -1,7 +1,9 @@
+# Build tools
 pip>=25.3
 setuptools>=70.0
 wheel
 
+# Project dependencies
 certifi==2025.10.5
 click==8.2.1
 Flask==3.1.2
